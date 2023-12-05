@@ -4,29 +4,8 @@ Upstream-Contact: Martin Hořeňovský <martin.horenovsky@gmail.com>
 Source: https://github.com/catchorg/Catch2
 
 Files: *
-Copyright: 2010-2019 Two Blue Cubes Ltd.
+Copyright: 2010-2023 Catch2 Authors
 License: Boost-1.0
-
-Files: single_include/catch2/catch_reporter_tap.hpp
-       include/reporters/catch_reporter_tap.hpp
-       include/reporters/catch_reporter_compact.h
-Copyright: 2015 Martin Moene.
-License: Boost-1.0
-
-Files: single_include/catch2/catch_reporter_automake.hpp
-       include/reporters/catch_reporter_automake.hpp
-Copyright: 2017 Justin R. Wilson
-License: Boost-1.0
-
-Files: single_include/catch2/catch_reporter_sonarqube.hpp
-       include/reporters/catch_reporter_sonarqube.hpp
-Copyright: 2018 Social Point SL
-License: Boost-1.0
-
-Files: contrib/CatchAddTests.cmake
-       contrib/Catch.cmake
-Copyright: 2000-2020 Kitware, Inc. and Contributors
-License: BSD-3
 
 Files: CMake/llvm-cov-wrapper
        CMake/Findcodecov.cmake
@@ -35,8 +14,17 @@ Files: CMake/llvm-cov-wrapper
 Copyright: 2015-2017 RWTH Aachen University, Federal Republic of Germany
 License: BSD-3
 
+Files: extras/CatchAddTests.cmake
+       extras/Catch.cmake
+Copyright: 2000-2020 Kitware, Inc. and Contributors
+License: BSD-3
+
+Files: third_party/clara.hpp
+Copyright: 2017 Two Blue Cubes Ltd.
+License: Boost-1.0
+
 Files: debian/*
-Copyright: 2020 Mathieu Mirmont <mat@parad0x.org>
+Copyright: 2020-2023 Mathieu Mirmont <mat@parad0x.org>
 License: BSD-3
 
 License: Boost-1.0
